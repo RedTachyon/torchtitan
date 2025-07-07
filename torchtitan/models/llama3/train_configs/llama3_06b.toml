@@ -18,7 +18,7 @@ flavor              = "0.6B"
 hidden_size         = 1536      # 24 layers × 1536 dim ≃ 600 M params
 num_attention_heads = 12
 num_layers          = 24
-tokenizer_path      = "./assets/tokenizer/original/tokenizer.model"
+tokenizer_path      = "./assets/tokenizer/original/Llama-3.2-1B/tokenizer.model"
 
 [training]
 local_batch_size = 8
