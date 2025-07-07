@@ -14,7 +14,6 @@ enable_wandb = true
 
 [model]
 name                   = "llama3"
-flavor                 = "1B"
 hidden_size            = 2048     #  ← core size knob
 num_attention_heads    = 16
 num_layers             = 24
